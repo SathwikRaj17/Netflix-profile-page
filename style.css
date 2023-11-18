@@ -1,0 +1,87 @@
+html
+{
+    background-color: #141414;
+}
+h1
+{
+    color: #ffffff;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-stretch: expanded;
+    padding: 0;
+}
+h5
+{
+    color: #808080;
+    font-size: 20px;
+    font-weight: 10;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+img
+{
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+    border:none;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30pt;
+    align-items: center;
+    text-align: center;
+}
+ul
+{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    list-style:none;
+}
+.Profiles
+{
+    margin-top: 0px;
+}
+.bot
+{
+    font-size: 15px;
+    text-decoration: none;
+    color:#808080 ;
+   
+}
+.botm
+{
+    border: 10px;   
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.logo
+{
+   display: flex;
+   justify-content: center;
+    border-top:0px ;
+}
+@media (max-width:1000px) {
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .prof
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .botm
+    {
+       display: block;
+      
+    }
+}
+.inli
+{
+    text-decoration: none;
+}
+
