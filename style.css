@@ -77,14 +77,15 @@ ul
     .botm
     {
        display: block;
-      
+      margin-left: -10px;
     }
     .Profiles
     {
-        margin-left:-40px;
+        margin-left:-50px;
+        width:100%;
     }
+}
 .inli
 {
     text-decoration: none;
 }
-
